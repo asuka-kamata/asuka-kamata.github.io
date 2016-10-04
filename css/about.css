@@ -75,6 +75,10 @@ section h2 {
     letter-spacing: 0.15em;
 }
 
+section ul li {
+    list-style: none;
+}
+
 footer {
     padding: 20px 0;
     font-size: 93%;
