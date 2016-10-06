@@ -4,19 +4,21 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>鎌田 明日香 | About</title>
+        <title>鎌田 明日香 | index</title>
         <!-- BootstrapのCSS読み込み -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/index.css">
         <!-- jQuery読み込み -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- BootstrapのJS読み込み -->
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#sampleScrollSpy" data-offset"72">
         <header>
-            
-            <nav class="navbar navbar-default">
+           <div id="sampleScrollSpy"> 
+            <nav class="navbar navbar-default navbar-fixed-top">
             	<div class="container-fluid">
             		<div class="navbar-header">
             			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample1">
@@ -29,37 +31,77 @@
             		
             		<div class="collapse navbar-collapse" id="navbarEexample1">
             			<ul class="nav navbar-nav">
-            				<li><a href="index.html">Profile</a></li>
-            				<li><a href="application.html">Application</a></li>
+            				<li><a href="#about">About</a></li>
+            				<li><a href="#works">Works</a></li>
             				<li><a href="contact.html">Contact</a></li>
             			</ul>
             		</div>
             	</div>
             </nav>
+            </div>
             
          <div id="logo">
-                <img src="img/profile.jpg" width="500" height="400" alt="profile">
+                <img src="img/profile.jpg" width="200px" height="400px" class="img-circle" alt="profile">
                 <h1>鎌田 明日香</h1>
             </div>
         </header>
         
         <div class="container">
+
             <section>
-                <h2>About</h2>
+                <h2 id="about">About</h2>
+                
+                <h3>サイトについて</h3>
+                <p>こちらは、鎌田 明日香（かまた あすか）のポートフォリオサイトです。</p>
+                <p>ポートフォリオを見て気になった方は<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+                
                 <h3>Profile</h3>
-                <p>鎌田 明日香</p>
+                <p>鎌田 明日香(かまた あすか)</p>
                 <p>大阪府堺市在住。</p>
                 <p>やんちゃな男の子の子育て奮闘中のママ。</p>
                 <p><span class="red">Ruby on Rails</span>でオリジナルアプリの開発を目指し、子育ての合間を見てプログラミング勉強中。</p>
-                <p>ポートフォリオを見て気になった方は<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
-                
+
                 <h3>Link</h3>
                 <ul>
                     <li><a href="https://github.com/asuka-kamata" target="_blank">GitHubマイページ</a></li>
                 </ul>
             </section>
+            
+            <div class-"row">
+            <section>
+                <h2 id="works">Works</h2>
+                <div class="works col-md-6 col-xs-12">
+                    <figure>
+                        <figcaption>Message-board</figcaption>
+                        <a href=""><img src="http://placehold.it/400x400/27709b/ffffff" class="img-responsive"></a>
+                    </figure>
+                </div>
+                
+                 <div class="works col-md-6 col-xs-12">
+                    <figure>
+                        <figcaption>Twitter</figcaption>
+                        <a href=""><img src="http://placehold.it/400x400/27709b/ffffff" class="img-responsive"></a>
+                    </figure>
+                </div>
+                
+                <div class="works col-md-6 col-xs-12">
+                    <figure>
+                        <figcaption>Mono-list</figcaption>
+                        <a href=""><img src="http://placehold.it/400x400/27709b/ffffff" class="img-responsive"></a>
+                    </figure>
+                </div>
+                
+                <div class="works col-md-6 col-xs-12">
+                    <figure>
+                        <figcaption>Original-app</figcaption>
+                        <a href=""><img src="http://placehold.it/400x400/27709b/ffffff" class="img-responsive"></a>
+                    </figure>
+                </div>
+                
+            </section>
+            </div>
             <footer>
-                <p>$copy; 2016 Asuka Kamata.</p>
+                <p>&copy; 2016 Asuka Kamata.</p>
             </footer>
         </div>
     </body>
